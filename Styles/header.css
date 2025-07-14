@@ -10,6 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -123,3 +124,20 @@
     border: 0px solid white;
     border-radius: 50%;
 }
+
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 11px;
+    font-family: Roboto, Arial;
+}
+    
